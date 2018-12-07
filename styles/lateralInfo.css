@@ -1,0 +1,90 @@
+.infoHidden{
+    overflow-y: scroll;
+    position:fixed;
+    top:0;
+    width:45%;
+    transform:translateX(-1000px);
+    height:100%;
+    z-index:2;
+    background-color:white;
+    transition: transform 1s ease;
+}
+
+.infoDisplayed{
+    transform: translateX(0);
+}
+
+.flex{
+    display:flex;
+    flex-direction: row;
+}
+
+.content{
+    margin-left:5%;
+    width:80%;
+}
+
+#closeButton img{
+    width:20px;
+    margin-top:650%;
+}
+
+.content .flex{
+    justify-content: space-between;
+}
+.aboutme, .contact{
+    cursor:pointer;
+    padding:0 15px 5px 15px;
+    font-size:16px;
+    letter-spacing: 2.7px;
+    font-weight: 200;
+    color:rgb(155,155,155);
+}
+
+#closeButton{
+    width:60px;
+    z-index:1;
+    border-right:1px solid rgb(96,169,195);
+    text-align:center;
+}
+
+
+#closeButton:hover{
+ background-color:grey;
+ opacity:0.2;
+}
+
+.isActive{
+ border-bottom:2px solid rgb(230, 70, 9);
+ font-weight:600;
+ color:black;
+}
+
+.contactContent{
+    display:none;
+}
+.aboutmeContent{
+    margin-top:5%;
+  
+
+}
+.aboutmeContent h3{
+    margin:0;
+    font-size:22px;
+    font-weight: 600;
+    letter-spacing: 2.2px;
+}
+.aboutmeContent p{
+    font-size:16px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+.firstp{
+    margin-top:7.5%;
+}
+p span{
+    font-weight:600;
+}
+.lastp{
+    margin-bottom:10%;
+}
