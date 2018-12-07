@@ -35,8 +35,8 @@
 .aboutme, .contact{
     cursor:pointer;
     padding:0 15px 5px 15px;
-    font-size:16px;
-    letter-spacing: 2.7px;
+    font-size:14px;
+    letter-spacing: 2px;
     font-weight: 200;
     color:rgb(155,155,155);
 }
@@ -50,8 +50,8 @@
 
 
 #closeButton:hover{
- background-color:grey;
- opacity:0.2;
+ background-color:lightgrey;
+ opacity:0.1;
 }
 
 .isActive{
@@ -62,17 +62,18 @@
 
 .contactContent{
     display:none;
+    margin-top: 10%;
 }
 .aboutmeContent{
     margin-top:5%;
-  
+
 
 }
 .aboutmeContent h3{
     margin:0;
-    font-size:22px;
+    font-size:20px;
     font-weight: 600;
-    letter-spacing: 2.2px;
+    letter-spacing: 2px;
 }
 .aboutmeContent p{
     font-size:16px;
@@ -87,4 +88,24 @@ p span{
 }
 .lastp{
     margin-bottom:10%;
+}
+div p{
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10%;
+}
+div h3{
+  margin:0;
+  font-size:20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.socialmediastyle{
+  margin-top: 10%;
+  font-size: 16px;
+  color: rgb(96,169,195);
+  letter-spacing: 1px;
+}
+.spacesocialmedia{
+  margin-top: 10%;
 }

@@ -31,19 +31,20 @@ section{
     background-repeat:no-repeat;
 }
 #section1{
+  margin-top: -2%;
     background-image:url('../Images/Medusa.png');
 }
 #section2{
-    margin-top:-3%;
+    margin-top:-2.5%;
     background-image:url('../Images/FlorNaranja.png');
 
 }
 #section3{
-    margin-top:-3%;
+    margin-top:-2.5%;
     background-image:url('../Images/Boat.png');
 }
 #section4{
-    margin-top:-3%;
+    margin-top:-2.5%;
     background-image:url('../Images/FlorRosa.png');
 }
 
@@ -56,13 +57,13 @@ section{
 
 #section1 div h4{
     font-weight: 400;
-    letter-spacing: 3.6px;
+    letter-spacing: 3.2px;
     font-size:16px;
 }
 #section1 div h2{
     margin-top:6%;
     font-size:40px;
-    font-weight: 700;
+    font-weight: 600;
     width:40%;
     letter-spacing: 1.3px;
 }
@@ -89,7 +90,7 @@ section{
 
 .section2Content h5{
     font-weight: 400;
-    letter-spacing: 3.6px;
+    letter-spacing: 3.2px;
     font-size:16px;
 }
 
@@ -136,7 +137,7 @@ section{
 }
 .seciont3Content h5{
     font-weight: 400;
-    letter-spacing: 3.6px;
+    letter-spacing: 3.2px;
     font-size:16px;
 }
 
@@ -149,7 +150,7 @@ section{
 
 .seciont3Content p{
     font-size:16px;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 2px;
     text-align: justify;
 }
@@ -169,7 +170,7 @@ section{
 }
 .section4Content h5{
     font-weight: 400;
-    letter-spacing: 3.6px;
+    letter-spacing: 3.2px;
     font-size:16px;
 }
 .section4Content h3{
