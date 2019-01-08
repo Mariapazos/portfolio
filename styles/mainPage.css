@@ -1,7 +1,12 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
 body{
     font-family:"Open Sans";
-    margin:0;
 }
+
 #mainButton{
     height:100%;
     width:60px;
@@ -24,168 +29,99 @@ body{
 #mainButton:hover{
     color:white;
 }
+
 section{
-    height:1000px;
-    background-size: cover;
-    background-position: center;
+    height:780px;
     background-repeat:no-repeat;
+    border:1px solid red;
 }
+
 #section1{
-  margin-top: -2%;
-    background-image:url('../Images/Medusa.png');
+    background-image:url('../Images/finalImages/Intro.png');
+    background-size:cover;
 }
+
+.section1div{
+    color: white;
+    width:500px;
+    margin:0 35%;
+}
+
+.section1div h1{
+    font-size:160px;
+    margin-left:-2.5%;
+    padding-top:30%;
+}
+
+.section1div h6{
+    font-size:18px;
+    margin-top:2%;
+}
+
+.bar{
+    display:block;
+    margin-top:-2%;
+}
+
+.projects{
+    margin:0 auto;
+    border-left:1px solid white;
+    width:500px;
+    margin:0 35%;
+    color:white;
+    margin-top:280px;
+    padding:15px 0 60px 10px;
+}
+
+#gold{
+    color:#F5A623;
+}
+
 #section2{
-    margin-top:-2.5%;
-    background-image:url('../Images/FlorNaranja.png');
-
-}
-#section3{
-    margin-top:-2.5%;
-    background-image:url('../Images/Boat.png');
-}
-#section4{
-    margin-top:-2.5%;
-    background-image:url('../Images/FlorRosa.png');
+    background-image:url('../Images/finalImages/CrossKit.png');
+    background-size:contain;
 }
 
-#section1 div{
-    color:white;
-    position:relative;
-    left:10%;
-    top:30%;
-}
-
-#section1 div h4{
-    font-weight: 400;
-    letter-spacing: 3.2px;
-    font-size:16px;
-}
-#section1 div h2{
-    margin-top:6%;
-    font-size:40px;
-    font-weight: 600;
-    width:40%;
-    letter-spacing: 1.3px;
-}
-#section1 div h5{
-    font-size:20px;
-    font-weight: 400;
-    letter-spacing: 3.2px;
-}
-
-#section1 div h6{
-    margin-top:10%;
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: 3px;
-}
-
-.section2Content{
-    color:white;
-    position:relative;
-    left:10%;
-    top:6%;
-    width:85%;
-}
-
-.section2Content h5{
-    font-weight: 400;
-    letter-spacing: 3.2px;
-    font-size:16px;
-}
-
-.section2Content h3{
-    margin-top:4%;
-    font-size:40px;
-    font-weight: 600;
-    letter-spacing: 1.3px;
-}
-
-.section2Content p{
-    font-size:16px;
-    font-weight: 300;
-    letter-spacing: 2px;
-    text-align: justify;
-}
-.flexImages{
-    margin-top:5%;
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.flexImages img{
-    width:200px;
-}
-.link{
-    display:flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    margin-bottom:1.5%;
-}
-.link a{
-    letter-spacing: 2.7px;
-    color:white;
-    font-size:180'
-}
-
-.seciont3Content{
-    color:white;
-    position:relative;
-    left:10%;
-    top:6%;
-    width:85%
-}
-.seciont3Content h5{
-    font-weight: 400;
-    letter-spacing: 3.2px;
-    font-size:16px;
-}
-
-.seciont3Content h3{
-    margin-top:4%;
-    font-size:40px;
-    font-weight: 600;
-    letter-spacing: 1px;
-}
-
-.seciont3Content p{
-    font-size:16px;
-    font-weight: 400;
-    letter-spacing: 2px;
-    text-align: justify;
-}
-
-.seciont3Content h4{
-    margin-top:30%;
-    font-size:20px;
-    font-weight: 400;
-    letter-spacing: 2px;
-}
-.section4Content{
-    color:white;
-    position:relative;
-    left:10%;
-    top:6%;
-    width:85%
-}
-.section4Content h5{
-    font-weight: 400;
-    letter-spacing: 3.2px;
-    font-size:16px;
-}
-.section4Content h3{
-    margin-top:4%;
-    font-size:40px;
-    font-weight: 600;
-    letter-spacing: 1px;
-}
-.section4Flex{
-    margin-top:5%;
-    display:flex;
-    flex-wrap: wrap;
-    flex-direction:row;
-}
-.section4Flex img{
+.section2div{
     width:400px;
-    height:299px;
+    margin-left:10%;
+    margin-top:3%;
+    color:#3b3c3c;
+}
+
+.section2div h1{
+    font-size:42px;
+    margin-left:-1%;
+}
+
+.section2div h6{
+    font-size:20px;
+    margin-top:2%;
+}
+
+#mockup2{
+    display:block;
+    width: 720px;
+    margin:3% 0 0 23%;
+}
+
+.viewMore{
+    color:#E8A22E;
+    font-size:18px;
+    box-shadow: 0 2px rgba(0,0,0,0.2);
+    padding:7px;
+    border:none;
+    margin-left:10%;
+    margin-top:2%;
+
+}
+
+#section3{
+    background-image:url('../Images/finalImages/AnimaLook.png');
+    background-size:contain;
+}
+
+#section4{
+    background-image:url('../Images/finalImages/Grind.png');
+    background-size:contain;
 }

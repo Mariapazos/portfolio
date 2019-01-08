@@ -22,6 +22,7 @@
 .content{
     margin-left:5%;
     width:80%;
+    margin-top:5%;
 }
 
 #closeButton img{
@@ -32,6 +33,7 @@
 .content .flex{
     justify-content: space-between;
 }
+
 .aboutme, .contact{
     cursor:pointer;
     padding:0 15px 5px 15px;
@@ -48,10 +50,10 @@
     text-align:center;
 }
 
-
 #closeButton:hover{
  background-color:lightgrey;
  opacity:0.1;
+ cursor:pointer;
 }
 
 .isActive{
@@ -66,9 +68,8 @@
 }
 .aboutmeContent{
     margin-top:5%;
-
-
 }
+
 .aboutmeContent h3{
     margin:0;
     font-size:20px;
@@ -80,9 +81,11 @@
     font-weight: 200;
     letter-spacing: 1px;
 }
+
 .firstp{
     margin-top:7.5%;
 }
+
 p span{
     font-weight:600;
 }
