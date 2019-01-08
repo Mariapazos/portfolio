@@ -1,10 +1,16 @@
+@@font-face {
+  font-family:caviarDreams;
+  src:url(../caviar_dreams/CaviarDreams.ttf);
+}
+
 *{
     margin:0px;
     padding:0px;
+
 }
 
 body{
-    font-family:"Open Sans";
+    font-family:caviarDreams;
 }
 
 #mainButton{
