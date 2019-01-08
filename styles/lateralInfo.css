@@ -3,7 +3,7 @@
     position:fixed;
     top:0;
     width:45%;
-    transform:translateX(-1000px);
+    transform:translateX(500%);
     height:100%;
     z-index:2;
     background-color:white;
@@ -11,12 +11,13 @@
 }
 
 .infoDisplayed{
-    transform: translateX(0);
+    transform: translateX(122%);
 }
 
 .flex{
     display:flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .content{
@@ -31,7 +32,7 @@
 }
 
 .content .flex{
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .aboutme, .contact{
@@ -46,7 +47,7 @@
 #closeButton{
     width:60px;
     z-index:1;
-    border-right:1px solid rgb(96,169,195);
+    border-left:1px solid rgb(96,169,195);
     text-align:center;
 }
 
@@ -79,7 +80,6 @@
 .aboutmeContent p{
     font-size:16px;
     font-weight: 200;
-    letter-spacing: 1px;
 }
 
 .firstp{
@@ -97,18 +97,25 @@ div p{
   font-weight: 400;
   margin-top: 10%;
 }
-div h3{
+.aboutmeContent h3{
   margin:0;
   font-size:20px;
   font-weight: 600;
-  letter-spacing: 1px;
 }
+.aboutmeContent{
+    padding-top:6%;
+}
+
 .socialmediastyle{
   margin-top: 10%;
   font-size: 16px;
   color: rgb(96,169,195);
-  letter-spacing: 1px;
+
 }
 .spacesocialmedia{
   margin-top: 10%;
+}
+a{
+    text-decoration:none;
+    color:black !important;
 }

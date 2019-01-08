@@ -11,8 +11,9 @@ body{
     height:100%;
     width:60px;
     position:fixed;
+    right:0;
     z-index:1;
-    border-right:1px solid white;
+    border-left:1px solid white;
     text-align:center;
 }
 
@@ -31,9 +32,9 @@ body{
 }
 
 section{
-    height:780px;
+    height:800px;
     background-repeat:no-repeat;
-    border:1px solid red;
+    border:1px solid white;
 }
 
 #section1{
@@ -64,12 +65,11 @@ section{
 }
 
 .projects{
-    margin:0 auto;
     border-left:1px solid white;
     width:500px;
     margin:0 35%;
     color:white;
-    margin-top:280px;
+    margin-top:290px;
     padding:15px 0 60px 10px;
 }
 
@@ -85,7 +85,7 @@ section{
 .section2div{
     width:400px;
     margin-left:10%;
-    margin-top:3%;
+    padding-top:5%;
     color:#3b3c3c;
 }
 
@@ -99,21 +99,20 @@ section{
     margin-top:2%;
 }
 
-#mockup2{
+.section2Imgs{
     display:block;
     width: 720px;
-    margin:3% 0 0 23%;
+    margin:6% 0 0 23%;
 }
 
 .viewMore{
     color:#E8A22E;
     font-size:18px;
-    box-shadow: 0 2px rgba(0,0,0,0.2);
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
     padding:7px;
     border:none;
     margin-left:10%;
     margin-top:2%;
-
 }
 
 #section3{
@@ -121,7 +120,62 @@ section{
     background-size:contain;
 }
 
+.section3div{
+    width:400px;
+    margin-left:10%;
+    margin-top:5%;
+    color:#3b3c3c;
+}
+
+.section3Imgs{
+    display:block;
+    width: 750px;
+    margin:6% 0 0 23%;
+}
+
+.section3div h1{
+    font-size:42px;
+    margin-left:-1%;
+}
+
+.section3div h6{
+    font-size:20px;
+    margin-top:2%;
+}
+
 #section4{
     background-image:url('../Images/finalImages/Grind.png');
     background-size:contain;
+}
+
+.section4div{
+    width:400px;
+    margin-left:10%;
+    margin-top:6%;
+    color:#3b3c3c;
+}
+
+.section4div h1{
+    font-size:42px;
+    margin-left:-1%;
+}
+
+.section4div h6{
+    font-size:20px;
+    margin-top:2%;
+}
+
+.section4ImgsDiv{
+    text-align:center;
+    margin-top:5%;
+}
+
+#section4First{
+    width:300px;
+}
+
+.section4Imgs{
+    width:175px;
+    margin:0 25px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
 }
