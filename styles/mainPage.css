@@ -1,4 +1,4 @@
-@@font-face {
+@font-face {
   font-family:caviarDreams;
   src:url(../caviar_dreams/CaviarDreams.ttf);
 }
@@ -18,7 +18,6 @@ body{
     position:fixed;
     right:0;
     z-index:1;
-    border-left:1px solid white;
     text-align:center;
 }
 
@@ -34,6 +33,13 @@ body{
 
 #mainButton:hover{
     color:white;
+}
+.firstColorButton{
+    border-left:1px solid white;
+}
+
+.changeColorButton{
+    border-left:1px solid #3b3c3c;
 }
 
 section{
@@ -78,7 +84,7 @@ section{
     margin:0 35%;
     color:white;
     margin-top:290px;
-    padding:15px 0 60px 10px;
+    padding:15px 0 120px 10px;
 }
 
 #gold{
@@ -123,7 +129,7 @@ section{
     padding:8px;
     border:none;
     margin-left:10%;
-    margin-top:1%;
+    margin-top:3%;
     font-weight: 200;
     border-radius: 8px;
     height: 42px;
@@ -133,6 +139,10 @@ section{
 .viewMore:hover{
   cursor:pointer;
   background-color: #F5A623;
+}
+
+.viewMore:focus{
+    outline:none;
 }
 
 #section3{
