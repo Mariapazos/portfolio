@@ -6,7 +6,6 @@
 *{
     margin:0px;
     padding:0px;
-
 }
 
 body{
@@ -58,11 +57,14 @@ section{
     font-size:160px;
     margin-left:-2.5%;
     padding-top:30%;
+    letter-spacing: 2.5px;
 }
 
 .section1div h6{
     font-size:18px;
     margin-top:2%;
+    font-weight: 400;
+    letter-spacing: -0.2px;
 }
 
 .bar{
@@ -84,7 +86,7 @@ section{
 }
 
 #section2{
-    background-image:url('../Images/finalImages/CrossKit.png');
+    background-image:url('../Images/Cb.png');
     background-size:contain;
 }
 
@@ -96,33 +98,45 @@ section{
 }
 
 .section2div h1{
-    font-size:42px;
+    font-size:36px;
     margin-left:-1%;
+    letter-spacing: 0.5px;
 }
 
 .section2div h6{
     font-size:20px;
     margin-top:2%;
+    font-weight: 400;
 }
 
 .section2Imgs{
     display:block;
     width: 720px;
-    margin:6% 0 0 23%;
+    margin:4% 0 0 23%;
 }
 
 .viewMore{
-    color:#E8A22E;
+    color:white;
+    background-color:#3B3C3C;
     font-size:18px;
     box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
-    padding:7px;
+    padding:8px;
     border:none;
     margin-left:10%;
-    margin-top:2%;
+    margin-top:1%;
+    font-weight: 200;
+    border-radius: 8px;
+    height: 42px;
+    width: 140px;
+}
+
+.viewMore:hover{
+  cursor:pointer;
+  background-color: #F5A623;
 }
 
 #section3{
-    background-image:url('../Images/finalImages/AnimaLook.png');
+    background-image:url('../Images/Ab.png');
     background-size:contain;
 }
 
@@ -136,22 +150,25 @@ section{
 .section3Imgs{
     display:block;
     width: 750px;
-    margin:6% 0 0 23%;
+    margin:4% 0 0 23%;
 }
 
 .section3div h1{
-    font-size:42px;
+    font-size:36px;
     margin-left:-1%;
+    letter-spacing: -0.5px;
 }
 
 .section3div h6{
     font-size:20px;
     margin-top:2%;
+    font-weight: 400;
 }
 
 #section4{
-    background-image:url('../Images/finalImages/Grind.png');
+    background-image:url('../Images/Gb.png');
     background-size:contain;
+
 }
 
 .section4div{
@@ -162,18 +179,21 @@ section{
 }
 
 .section4div h1{
-    font-size:42px;
+    font-size:36px;
     margin-left:-1%;
+    font-weight: bold;
+    letter-spacing: -0.5px;
 }
 
 .section4div h6{
     font-size:20px;
     margin-top:2%;
+    font-weight: 400;
 }
 
 .section4ImgsDiv{
     text-align:center;
-    margin-top:5%;
+    margin-top:4%;
 }
 
 #section4First{

@@ -28,7 +28,7 @@
 
 #closeButton img{
     width:20px;
-    margin-top:650%;
+    margin-top:620%;
 }
 
 .content .flex{
@@ -38,16 +38,15 @@
 .aboutme, .contact{
     cursor:pointer;
     padding:0 15px 5px 15px;
-    font-size:14px;
-    letter-spacing: 2px;
-    font-weight: 200;
+    font-size:17px;
+    font-weight: 400;
     color:rgb(155,155,155);
 }
 
 #closeButton{
     width:60px;
     z-index:1;
-    border-left:1px solid rgb(96,169,195);
+    border-left:1px solid rgb(59,60,60);
     text-align:center;
 }
 
@@ -58,7 +57,7 @@
 }
 
 .isActive{
- border-bottom:2px solid rgb(230, 70, 9);
+ border-bottom:2px solid rgb(245,166,35);
  font-weight:600;
  color:black;
 }
@@ -66,19 +65,20 @@
 .contactContent{
     display:none;
     margin-top: 10%;
+    margin-left: 8%;
+    margin-right: 8%;
 }
 .aboutmeContent{
     margin-top:5%;
 }
 
 .aboutmeContent h3{
-    margin:0;
-    font-size:20px;
+    margin-top: 10%;
+    font-size:17px;
     font-weight: 600;
-    letter-spacing: 2px;
 }
 .aboutmeContent p{
-    font-size:16px;
+    font-size:17px;
     font-weight: 200;
 }
 
@@ -93,9 +93,9 @@ p span{
     margin-bottom:10%;
 }
 div p{
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 400;
-  margin-top: 10%;
+  margin-top: 20%;
 }
 .aboutmeContent h3{
   margin:0;
@@ -104,12 +104,15 @@ div p{
 }
 .aboutmeContent{
     padding-top:6%;
+    margin-left: 8%;
+    margin-right: 8%;
 }
 
 .socialmediastyle{
   margin-top: 10%;
-  font-size: 16px;
-  color: rgb(96,169,195);
+  font-size: 17px;
+  margin-left: 2.5%;
+
 
 }
 .spacesocialmedia{
