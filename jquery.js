@@ -21,7 +21,22 @@ $(document).ready(function(){
         }
         toggleContent()
     })
-    
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 440) {
+            if( !$("#mainButton").hasClass("changeColorButton")){
+                $("#mainButton").addClass("changeColorButton");
+                $("#listaB").removeAttr("hidden");
+                $("#listaW").attr("hidden",true);
+            }
+        }
+        if ($(this).scrollTop() < 440) {
+            if( $("#mainButton").hasClass("changeColorButton")){
+                $("#mainButton").removeClass("changeColorButton");
+                $("#listaW").removeAttr("hidden");
+                $("#listaB").attr("hidden",true);
+            }
+        }
+     });
 })
 
 function toggleContent(){
