@@ -6,7 +6,7 @@
         z-index:1;
         width:30px;
     }
-    
+
     #listaW:active{
         width:40px;
     }
@@ -15,17 +15,27 @@
         color:white;
     }
 
+    #mainButton:active{
+        background-color:grey;
+        opacity:0.2;
+    }
+
+    #closeButton img{
+        width:20px;
+        margin-top:600%;
+    }
+
     section{
         background-repeat:no-repeat;
         border:1px solid white;
     }
-    
+
     #section1{
         background-image:url('../Images/finalImages/Intro.png');
         background-size:cover;
         min-height:650px;
     }
-    
+
     .section1div{
         color: white;
         text-align:right;
@@ -33,17 +43,17 @@
         position:absolute;
         right:20px;
     }
-    
+
     .section1div h1{
         font-size:48px;
         letter-spacing: 2px;
     }
-    
+
     .section1div h6{
         font-size:14px;
         font-weight: 400;
     }
-    
+
     .bar{
         display:block;
         margin-top:-2%;
@@ -51,11 +61,11 @@
     #firstBar{
         visibility: hidden;
     }
-    
+
     .projects{
         visibility:hidden;
     }
-    
+
     #gold{
         color:#F5A623;
         display:block;
@@ -67,36 +77,36 @@
         position:absolute;
         right:5px;
     }
-    
+
     #section2{
         background-image:url('../Images/Cb.png');
         background-size:contain;
     }
-    
+
     .section2div{
         margin-left:5%;
         margin-top:15%;
         color:#3b3c3c;
     }
-    
+
     .section2div h1{
         font-size:28px;
         margin-left:-1%;
         letter-spacing: 0.5px;
     }
-    
+
     .section2div h6{
         font-size:14px;
         margin-top:2%;
         font-weight: 400;
     }
-    
+
     .section2Imgs{
         display:block;
         width: 95%;
         margin: 10% auto;
     }
-    
+
     .viewMore{
         color:white;
         display:block;
@@ -104,13 +114,15 @@
         font-size:16px;
         box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
         padding:8px;
-        margin:15% auto;
+        margin:0 auto;
+        margin-top:15%;
+        margin-bottom:20%;
         font-weight: 200;
         border-radius: 8px;
         height: 42px;
         width: 95%;
     }
-    
+
     .viewMore:hover{
       cursor:pointer;
       background-color: #F5A623;
@@ -119,72 +131,72 @@
     .viewMore:active{
         background-color: #F5A623;
       }
-    
+
     .viewMore:focus{
         outline:none;
     }
-    
+
     #section3{
         background-image:url('../Images/Ab.png');
         background-size:contain;
     }
-    
+
     .section3div{
         margin-left:5%;
         color:#3b3c3c;
     }
-    
+
     .section3Imgs{
         display:block;
         width: 95%;
         margin: 10% auto;
     }
-    
+
     .section3div h1{
         font-size:28px;
         margin-left:-1%;
         letter-spacing: 0.5px;
     }
-    
+
     .section3div h6{
         font-size:14px;
         margin-top:2%;
         font-weight: 400;
     }
-    
+
     #section4{
         background-image:url('../Images/Gb.png');
         background-size:contain;
     }
-    
+
     .section4div{
         margin-left:5%;
         color:#3b3c3c;
     }
-    
+
     .section4div h1{
         font-size:28px;
         margin-left:-1%;
         letter-spacing: 0.5px;
     }
-    
+
     .section4div h6{
         font-size:14px;
         margin-top:2%;
         font-weight: 400;
     }
-    
+
     .section4ImgsDiv{
         text-align:center;
         display:block;
         width: 95%;
         margin: 10% auto;
     }
-    
+
     #section4First{
         width:115px
     }
-    
+
     .section4Imgs{
         width:65px;
         margin:0 10px;
@@ -195,25 +207,25 @@
         background-image:url('../Images/Abcg.png');
         background-size:cover;
     }
-    
+
     .section5div{
         margin-left:5%;
         color:#3b3c3c;
     }
-    
+
     .section5Imgs{
         display:block;
         width: 95%;
         margin: 10% auto;
         box-shadow: 1px 1px 10px rgba(0,0,0,0.08);
     }
-    
+
     .section5div h1{
         font-size:28px;
         margin-left:-1%;
         letter-spacing: 0.5px;
     }
-    
+
     .section5div h6{
         font-size:14px;
         margin-top:2%;
@@ -242,7 +254,7 @@
         font-weight: 400;
         color:rgb(155,155,155);
     }
-    
+
     .aboutmeContent h3{
         margin-top: 10%;
         font-size:16px;
@@ -263,17 +275,19 @@
     font-size:20px;
     font-weight: 600;
     }
+
     .socialmediastyle{
     margin-top: 10%;
     font-size: 17px;
     margin-left: 2.5%;
     }
+
     .isActive{
     border-bottom:2px solid rgb(245,166,35);
     font-weight:600;
     color:black;
     }
-    
+
 
     @media only screen and (min-width: 500px){
         .section1div h1{
@@ -302,7 +316,7 @@
             margin-left:-1%;
             letter-spacing: 0.5px;
         }
-        
+
         .section2div h6{
             font-size:18px;
             margin-top:2%;
@@ -326,7 +340,7 @@
             margin-left:-1%;
             letter-spacing: 0.5px;
         }
-        
+
         .section3div h6{
             font-size:18px;
             margin-top:2%;
@@ -338,30 +352,30 @@
             margin-top:10%;
             color:#3b3c3c;
         }
-        
+
         .section4div h1{
             font-size:30px;
             margin-left:-1%;
             letter-spacing: 0.5px;
         }
-        
+
         .section4div h6{
             font-size:18px;
             margin-top:2%;
             font-weight: 400;
         }
-        
+
         .section4ImgsDiv{
             text-align:center;
             display:block;
             width: 75%;
             margin: 5% auto;
         }
-        
+
         #section4First{
             width:25vw;
         }
-        
+
         .section4Imgs{
             width:15vw;
             margin:0 15px;
@@ -385,7 +399,7 @@
             margin-left:-1%;
             letter-spacing: 0.5px;
         }
-        
+
         .section5div h6{
             font-size:18px;
             margin-top:2%;
@@ -407,7 +421,7 @@
             height: 42px;
             width: 70%;
         }
-        
-    
+
+
     }
 }
