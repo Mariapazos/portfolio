@@ -1,9 +1,10 @@
+@media only screen and (min-width: 885px){
 .infoHidden{
     overflow-y: scroll;
     position:fixed;
     top:0;
     width:45%;
-    transform:translateX(500%);
+    transform:translateX(250%);
     height:100%;
     z-index:2;
     background-color:white;
@@ -12,6 +13,46 @@
 
 .infoDisplayed{
     transform: translateX(122%);
+}
+
+.aboutme, .contact{
+    cursor:pointer;
+    padding:0 15px 5px 15px;
+    font-size:17px;
+    font-weight: 400;
+    color:rgb(155,155,155);
+}
+
+.aboutmeContent h3{
+    margin-top: 10%;
+    font-size:17px;
+    font-weight: 600;
+}
+.aboutmeContent p{
+    font-size:17px;
+    font-weight: 200;
+}
+div p{
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 15%;
+  }
+.aboutmeContent h3{
+    margin:0;
+    font-size:20px;
+    font-weight: 600;
+  }
+.socialmediastyle{
+    margin-top: 10%;
+    font-size: 17px;
+    margin-left: 2.5%;
+  }
+.isActive{
+border-bottom:2px solid rgb(245,166,35);
+font-weight:600;
+color:black;
+}
+
 }
 
 .flex{
@@ -35,14 +76,6 @@
     justify-content: space-around;
 }
 
-.aboutme, .contact{
-    cursor:pointer;
-    padding:0 15px 5px 15px;
-    font-size:17px;
-    font-weight: 400;
-    color:rgb(155,155,155);
-}
-
 #closeButton{
     width:60px;
     z-index:1;
@@ -56,30 +89,15 @@
  cursor:pointer;
 }
 
-.isActive{
- border-bottom:2px solid rgb(245,166,35);
- font-weight:600;
- color:black;
-}
-
 .contactContent{
     display:none;
     margin-top: 10%;
     margin-left: 8%;
     margin-right: 8%;
 }
+
 .aboutmeContent{
     margin-top:5%;
-}
-
-.aboutmeContent h3{
-    margin-top: 10%;
-    font-size:17px;
-    font-weight: 600;
-}
-.aboutmeContent p{
-    font-size:17px;
-    font-weight: 200;
 }
 
 .firstp{
@@ -89,35 +107,21 @@
 p span{
     font-weight:600;
 }
+
 .lastp{
     margin-bottom:10%;
 }
-div p{
-  font-size: 17px;
-  font-weight: 400;
-  margin-top: 20%;
-}
-.aboutmeContent h3{
-  margin:0;
-  font-size:20px;
-  font-weight: 600;
-}
+
 .aboutmeContent{
     padding-top:6%;
     margin-left: 8%;
     margin-right: 8%;
 }
 
-.socialmediastyle{
-  margin-top: 10%;
-  font-size: 17px;
-  margin-left: 2.5%;
-
-
-}
 .spacesocialmedia{
   margin-top: 10%;
 }
+
 a{
     text-decoration:none;
     color:black !important;
